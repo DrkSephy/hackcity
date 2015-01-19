@@ -1,2 +1,2 @@
-# hackcity-
-Website of the hackcity hackathon
+# hackcity
+Website of the hackcity hackathon. 
