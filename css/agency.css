@@ -61,17 +61,18 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #F8F8FF;
+    background-color: #f3f3fa;
 }
 
 .bg-darkest-gray {
     background-color: #fff;
 }
-
+/* background color */
 .bg-photo {
     background-color: rgba(0,0,0,0.5);
     background-attachment: scroll;
-    background-image: url(../img/shepard5.jpg);
+    background-image: url(../img/geometry_@2X-1.png);
+    /* background pattern from subtlepatterns.com and color edit by lisa */
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -663,7 +664,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #9a9b9c;
 }
 
 .team-member h4 {
