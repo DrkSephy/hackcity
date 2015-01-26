@@ -61,11 +61,23 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #E6E6FA;
+    background-color: #F8F8FF;
 }
 
 .bg-darkest-gray {
     background-color: #fff;
+}
+
+.bg-photo {
+    background-color: rgba(0,0,0,0.5);
+    background-attachment: scroll;
+    background-image: url(../img/shepard5.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .btn-primary {
@@ -276,7 +288,21 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-
+header .transbox{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+header.transbox p{
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    font-weight: bold;
+}
 header .intro-text {
 
     color: #443266;
@@ -661,8 +687,8 @@ section#contact {
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
-    color: #fff;
+/*section#contact .section-heading {
+    color: #fff; */
 }
 
 section#contact .form-group {
