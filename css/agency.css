@@ -67,6 +67,11 @@ h6 {
 .bg-darkest-gray {
     background-color: #fff;
 }
+
+.bg-light-photo {
+    background-image: url(../img/pixel_weave.png);
+}
+
 /* background color */
 .bg-photo {
     background-color: rgba(0,0,0,0.5);
