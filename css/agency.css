@@ -309,8 +309,11 @@ header.transbox p{
 }
 /* Padding Logo */ 
 header .logo-photo {
-    padding-top: 150px
+    width:100%;
+    max-width:600px;
+    padding-top: 150px;
 }
+
 
 header .intro-text {
 
