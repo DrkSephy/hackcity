@@ -310,7 +310,7 @@ header.transbox p{
 /* Padding Logo */ 
 header .logo-photo {
     width:100%;
-    max-width:600px;
+    max-width:674px;
     padding-top: 150px;
 }
 
@@ -320,6 +320,7 @@ header .intro-text {
     color: #443266;
     /*padding-top: 25px; */ /*300px*/
     padding-bottom: 50px;
+
 }
 
 header .intro-text .intro-lead-in {
