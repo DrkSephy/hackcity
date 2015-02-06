@@ -363,21 +363,14 @@ label.mouse-divice{
 	width: 101px;
 	height: 116px;
 	display: inline-block;
-	background: url(../images/about-icons.png) no-repeat 0px 0px;
+
 }
 .about-grid p{
 	color:#ADADAD;
 	font-family:'open_sanslight';
 }
-.about-grid span.about-icon2{
-	background-position: -249px 0px;
-}
-.about-grid span.about-icon3{
-	background-position: -491px 0px;
-}
-.about-grid span.about-icon4{
-	background-position: -732px 0px;
-}
+
+
 .about-grids {
 	padding: 3.8em 0 1em;
 }
