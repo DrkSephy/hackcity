@@ -1007,9 +1007,40 @@ span.port-mouse{
 	color:#818181;
 	font-family: 'open_sanslight';
 }
+
 img.test-icon{
 	padding:0 0 1em 0;
 }
+
+.img-border {
+    float: left;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: left;
+    margin: 0 auto 0;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+@media screen and (min-width:768px) {
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+}
+
 /*---- address ----*/
 .address{
 	margin-top:8em;
@@ -1042,7 +1073,7 @@ img.test-icon{
 }
 /*--- footer ----*/
 .footer{
-	background: url(../images/darkscape.jpg) no-repeat 0px 0px;
+	/*background: url(../images/darkscape.jpg) no-repeat 0px 0px;*/
 	background-size: 100% 100%;
 	padding: 3.2em 0;
 }
