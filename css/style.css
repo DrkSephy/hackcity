@@ -506,6 +506,13 @@ a.wedobtn{
 	line-height: 1.8em;
 	font-family: 'open_sanslight';
 }
+
+.about-me p{
+	color: #9E9898;
+	line-height: 1.8em;
+	font-family: 'open_sanssemibold';
+}
+
 a.wedobtn{
 	background: #FC635E;
 	color: #FFF;
