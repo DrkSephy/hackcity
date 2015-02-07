@@ -1078,6 +1078,38 @@ img.test-icon{
 .address-info p{
 	color:#fff;
 }
+
+/*-- social buttons --*/
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    font-size: 40px;
+    line-height: 50px;
+    outline: 0;
+    color: #fff;
+    background-color: #FC645F;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+
+ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
 /*--- footer ----*/
 .footer{
 	/*background: url(../images/darkscape.jpg) no-repeat 0px 0px;*/
